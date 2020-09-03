@@ -1,8 +1,9 @@
 <!-- SPDX-License-Identifier: CC-0 -->
 
 <p align="center">
- <img src="gh_banner.svg" align="right" width="350">
-	<h1 align="center">▉▊▋▌▍▎▏YIPS ▎▍▌▋▊▉</h1>
+
+# ▉▊▋▌▍▎▏YIPS ▎▍▌▋▊▉
+    
  <h3 align="center"> yEarn Improvement Proposals</h3>
  <p align="center">
 <align="center">
