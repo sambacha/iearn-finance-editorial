@@ -1,81 +1,66 @@
-<!-- SPDX-License-Identifier: MIT -->
+<!-- SPDX-License-Identifier: CC-0 -->
 
 <p align="center">
- <img width="100px" src="gh_banner.svg" align="center" alt="YFI Yield Protocol" />
-	<h2 align="center">YFI README</h2>
-	<p align="center"> *Sub title header* </p>
-</p>
-<p align="center">
-	<a href="https://github.com/anuraghazra/github-readme-stats/actions">
-		<img alt="Tests Passing" src="https://github.com/anuraghazra/github-readme-stats/workflows/Test/badge.svg" />
-	</a>
-	<a href="https://codecov.io/gh/anuraghazra/github-readme-stats">
-		<img src="https://codecov.io/gh/anuraghazra/github-readme-stats/branch/master/graph/badge.svg" />
-	</a>
-	<a href="https://github.com/anuraghazra/github-readme-stats/issues">
-		<img alt="Issues" src="https://img.shields.io/github/issues/anuraghazra/github-readme-stats?color=0088ff" />
-	</a>
-	<a href="https://github.com/anuraghazra/github-readme-stats/pulls">
-		<img alt="GitHub pull requests"
-			src="https://img.shields.io/github/issues-pr/anuraghazra/github-readme-stats?color=0088ff" />
-	</a>
-	<br />
-	<br />
-	<a href="https://a.paddle.com/v2/click/16413/119403?link=1227">
-		<img
-			src="https://img.shields.io/badge/Supported%20by-VSCode%20Power%20User%20%E2%86%92-gray.svg?colorA=655BE1&colorB=4F44D6&style=for-the-badge" />
-	</a>
-	<a href="https://a.paddle.com/v2/click/16413/119403?link=2345">
-		<img
-			src="https://img.shields.io/badge/Supported%20by-Node%20Cli.com%20%E2%86%92-gray.svg?colorA=61c265&colorB=4CAF50&style=for-the-badge" />
-	</a>
+ <img src="gh_banner.svg" align="right" width="350">
+	<h1 align="center">YIPs</h1>
+ <h3 align="center"> yEarn Improvement Proposals</h3>
+ <p align="center">
+<align="center">
+
+ [![Twitter Follow](https://img.shields.io/twitter/follow/iearnfinance.svg?label=iearnfinance&style=social)](https://twitter.com/iearnfinance) [![Discord](https://img.shields.io/discord/734804446353031319.svg?color=768AD4&label=discord&logo=https%3A%2F%2Fdiscordapp.com%2Fassets%2F8c9701b98ad4372b58f13fd9f65f966e.svg)](https://discordapp.com/channels/734804446353031319/) [![Telegram](https://img.shields.io/badge/chat-on%20Telegram-blue.svg)](https://t.me/yearnfinance)
+ </center>
+  </p>
 </p>
 
-<p align="center">
-	<a href="${VIEW_DOCS}">View Documentation</a>
-	·
-	<a href="${REPORT_BUG}">Report Bug</a>
-	·
-	<a href="${REPORT_SECURITY}">Security Contact</a>
-</p>
-<p align="center">
-	<a href="/docs/readme_fr.md">Français </a>
-	·
-	<a href="/docs/readme_cn.md">简体中文</a>
-	·
-	<a href="/docs/readme_es.md">Español</a>
-	·
-	<a href="/docs/readme_de.md">Deutsch</a>
-	·
-	<a href="/docs/readme_ja.md">日本語</a>
-	·
-	<a href="/docs/readme_pt-BR.md">Português Brasileiro</a>
-	·
-	<a href="/docs/readme_it.md">Italiano</a>
-	·
-	<a href="/docs/readme_kr.md">한국어</a>
-</p>
-</p>
-<p align="center">Loved the project? Please consider <a href="https://www.paypal.me/anuraghazra">donating</a> to help it
+## Abstract
 
-| **v3**   | **Yield Tokens**                           |
-|----------|--------------------------------------------|
-| Contract | Address                                    |
-| yDAIv3   | 0xC2cB1040220768554cf699b0d863A3cd4324ce32 |
-| yUSDCv3  | 0x26EA744E5B887E5205727f55dFBE8685e3b21951 |
-| yUSDTv3  | 0xE6354ed5bC4b393a5Aad09f21c46E101e692d447 |
-| yBUSDv3  | 0x04bC0Ab673d88aE9dbC9DA2380cB6B79C4BCa9aE |
+The yEarn Improvement Proposals (`YIP`s) describe standards for the yEarn platform, including core protocol specifications, client APIs, and contract standards. This is the definitive, `cannonical` reference specification for the core logic.
 
+## Contributing
+
+ 1. Review [YIP-0](YIPS/yip-0.md).
+ 2. Fork the repository by clicking "Fork" in the top right.
+ 3. Add your YIP to your fork of the repository. There is a [template YIP here](yip-X.md).
+ 4. Submit a Pull Request to yEarn's [YIPs repository](https://github.com/iearn-finance/YIPS/).
+
+Your first PR should be a first draft of the final YIP. It must meet the formatting criteria enforced by the build (largely, correct metadata in the header). An editor will manually review the first PR for a new YIP and assign it a number before merging it. Make sure you include a `discussions-to` header with the URL to a new thread on [gov.yearn.finance](https://gov.yearn.finance/) where people can discuss the YIP as a whole.
+
+> Note: It is important that their be community support behind a proposed `YIP` - It is up to the author(s) to shepard their proposal through the process
+
+If your YIP requires images, the image files should be included in a subdirectory of the `assets` folder for that YIP as follow: `assets/yip-X` (for yip **X**). When linking to an image in the YIP, use relative links such as `../assets/yip-X/image.png`.
+
+When you believe your YIP is mature and ready to progress past the WIP phase, you should ask to have your issue added to the next governance call where it can be discussed for inclusion in a future platform upgrade. If the community agrees to include it, the YIP editors will update the state of your YIP to 'Approved'.
+
+## YIP Statuses
+
+* **WIP** - a YIP that is still being developed.
+* **Proposed** - a YIP that is ready to be reviewed in a governance call.
+* **Approved** - a YIP that has been accepted for implementation by the yEarn community.
+* **Implemented** - a YIP that has been released to mainnet.
+* **Rejected** - a YIP that has been rejected.
+
+### Example YIP
 
 ```diff
--Status: Draft
-+Status: Accepted
-Version: 1
-Created: 2017-05-06
--Last-Modified: 2020-04-26
-+Last-Modified: 2020-05-10
+-Status: Proposed
++Status: Approved
+YIP: integer,
+Created: 2020-09-01
+-Last-Modified: 2020-09-03
++Last-Modified: 2020-09-08
 ```
 
-## License
+## Validation
 
-MIT
+YIPs MUST pass some validation tests.  The YIP repository ensures this by running tests using [html-proofer](https://rubygems.org/gems/html-proofer) and [yip_validator](https://rubygems.org/gems/yip_validator).
+
+It is possible to run the YIP validator locally:
+
+```ruby
+gem install yip_validator
+yip_validator <INPUT_FILES>
+```
+
+## Copyright
+
+Copyright and related rights waived via [CC0](https://creativecommons.org/publicdomain/zero/1.0/).
