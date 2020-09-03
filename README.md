@@ -57,9 +57,15 @@
 </p>
 </p>
 <p align="center">Loved the project? Please consider <a href="https://www.paypal.me/anuraghazra">donating</a> to help it
-	improve!
 
-	![Anurag's github stats](https://github-readme-stats.vercel.app/api?username=anuraghazra&theme=dark&show_icons=true)
+| **v3**   | **Yield Tokens**                           |
+|----------|--------------------------------------------|
+| Contract | Address                                    |
+| yDAIv3   | 0xC2cB1040220768554cf699b0d863A3cd4324ce32 |
+| yUSDCv3  | 0x26EA744E5B887E5205727f55dFBE8685e3b21951 |
+| yUSDTv3  | 0xE6354ed5bC4b393a5Aad09f21c46E101e692d447 |
+| yBUSDv3  | 0x04bC0Ab673d88aE9dbC9DA2380cB6B79C4BCa9aE |
+
 
 ```diff
 -Status: Draft

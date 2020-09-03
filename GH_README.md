@@ -1,4 +1,4 @@
-<!-- SPDX-License-Identifier: MIT -->
+<!-- SPDX-License-Identifier: CC-0 -->
 
 <p align="center">
  <img width="100px" src="gh_banner.svg" align="center" alt="YFI Yield Protocol" />
@@ -32,6 +32,16 @@ When you believe your YIP is mature and ready to progress past the WIP phase, yo
 * **Approved** - a YIP that has been accepted for implementation by the yEarn community.
 * **Implemented** - a YIP that has been released to mainnet.
 * **Rejected** - a YIP that has been rejected.
+
+
+```diff
+-Status: Proposed
++Status: Approved
+YIP: integer,
+Created: 2020-09-01
+-Last-Modified: 2020-09-03
++Last-Modified: 2020-09-08
+```
 
 ## Validation
 
