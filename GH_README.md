@@ -1,16 +1,15 @@
 <!-- SPDX-License-Identifier: CC-0 -->
 
 <p align="center">
- <img width="100px" src="gh_banner.svg" align="center" alt="YFI Yield Protocol" />
-	<h2 align="center">YFI README</h2>
- <p align="center"> *Sub title header* </p>
+ <img width="100px" src="gh_banner.svg" align="center" alt="yEarn Protocol" />
+	<h1 align="center">YIPs</h1>
+ <h3 align="center"> *yEarn Improvement Proposals* </h3>
+ <p align="center">  [![Twitter Follow](https://img.shields.io/twitter/follow/iearnfinance.svg?label=iearnfinance&style=social)](https://twitter.com/iearnfinance) [![Discord](https://img.shields.io/discord/734804446353031319.svg?color=768AD4&label=discord&logo=https%3A%2F%2Fdiscordapp.com%2Fassets%2F8c9701b98ad4372b58f13fd9f65f966e.svg)](https://discordapp.com/channels/734804446353031319/) [![Telegram](https://img.shields.io/badge/chat-on%20Telegram-blue.svg)](https://t.me/yearnfinance) </p>
 </p>
 
-# YIPs
+# Overview
 
-[![Discord](https://img.shields.io/discord/734804446353031319.svg?color=768AD4&label=discord&logo=https%3A%2F%2Fdiscordapp.com%2Fassets%2F8c9701b98ad4372b58f13fd9f65f966e.svg)](https://discordapp.com/channels/734804446353031319/) [![Telegram](https://img.shields.io/badge/chat-on%20Telegram-blue.svg)](https://t.me/yearnfinance) [![Twitter Follow](https://img.shields.io/twitter/follow/iearnfinance.svg?label=iearnfinance&style=social)](https://twitter.com/iearnfinance)
-
-yEarn Improvement Proposals (YIPs) describe standards for the yEarn platform, including core protocol specifications, client APIs, and contract standards.
+The yEarn Improvement Proposals (`YIP`s) describe standards for the yEarn platform, including core protocol specifications, client APIs, and contract standards. This is the definitive, `cannonical` reference specification for the core logic.
 
 ## Contributing
 
@@ -20,6 +19,8 @@ yEarn Improvement Proposals (YIPs) describe standards for the yEarn platform, in
  4. Submit a Pull Request to yEarn's [YIPs repository](https://github.com/iearn-finance/YIPS/).
 
 Your first PR should be a first draft of the final YIP. It must meet the formatting criteria enforced by the build (largely, correct metadata in the header). An editor will manually review the first PR for a new YIP and assign it a number before merging it. Make sure you include a `discussions-to` header with the URL to a new thread on [gov.yearn.finance](https://gov.yearn.finance/) where people can discuss the YIP as a whole.
+
+> Note: It is important that their be community support behind a proposed `YIP` - It is up to the author(s) to shepard their proposal through the process
 
 If your YIP requires images, the image files should be included in a subdirectory of the `assets` folder for that YIP as follow: `assets/yip-X` (for yip **X**). When linking to an image in the YIP, use relative links such as `../assets/yip-X/image.png`.
 
@@ -33,6 +34,7 @@ When you believe your YIP is mature and ready to progress past the WIP phase, yo
 * **Implemented** - a YIP that has been released to mainnet.
 * **Rejected** - a YIP that has been rejected.
 
+### Example YIP
 
 ```diff
 -Status: Proposed
@@ -45,7 +47,7 @@ Created: 2020-09-01
 
 ## Validation
 
-YIPs must pass some validation tests.  The YIP repository ensures this by running tests using [html-proofer](https://rubygems.org/gems/html-proofer) and [yip_validator](https://rubygems.org/gems/yip_validator).
+YIPs MUST pass some validation tests.  The YIP repository ensures this by running tests using [html-proofer](https://rubygems.org/gems/html-proofer) and [yip_validator](https://rubygems.org/gems/yip_validator).
 
 It is possible to run the YIP validator locally:
 
