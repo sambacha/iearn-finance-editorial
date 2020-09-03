@@ -1,13 +1,16 @@
 <!-- SPDX-License-Identifier: CC-0 -->
 
 <p align="center">
- <img width="100px" src="gh_banner.svg" align="center" alt="yEarn Protocol" />
+ <img width="800px" src="gh_banner.svg" align="center" alt="yEarn Protocol" />
 	<h1 align="center">YIPs</h1>
- <h3 align="center"> *yEarn Improvement Proposals* </h3>
- <p align="center">  [![Twitter Follow](https://img.shields.io/twitter/follow/iearnfinance.svg?label=iearnfinance&style=social)](https://twitter.com/iearnfinance) [![Discord](https://img.shields.io/discord/734804446353031319.svg?color=768AD4&label=discord&logo=https%3A%2F%2Fdiscordapp.com%2Fassets%2F8c9701b98ad4372b58f13fd9f65f966e.svg)](https://discordapp.com/channels/734804446353031319/) [![Telegram](https://img.shields.io/badge/chat-on%20Telegram-blue.svg)](https://t.me/yearnfinance) </p>
+ <h3 align="center"> yEarn Improvement Proposals</h3>
+ <p align="center">  
+ 
+ [![Twitter Follow](https://img.shields.io/twitter/follow/iearnfinance.svg?label=iearnfinance&style=social)](https://twitter.com/iearnfinance) [![Discord](https://img.shields.io/discord/734804446353031319.svg?color=768AD4&label=discord&logo=https%3A%2F%2Fdiscordapp.com%2Fassets%2F8c9701b98ad4372b58f13fd9f65f966e.svg)](https://discordapp.com/channels/734804446353031319/) [![Telegram](https://img.shields.io/badge/chat-on%20Telegram-blue.svg)](https://t.me/yearnfinance)
+  </p>
 </p>
 
-# Overview
+## Abstract
 
 The yEarn Improvement Proposals (`YIP`s) describe standards for the yEarn platform, including core protocol specifications, client APIs, and contract standards. This is the definitive, `cannonical` reference specification for the core logic.
 
