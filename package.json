@@ -1,0 +1,29 @@
+{
+  "name": "yearn-improvement-proposals",
+  "version": "1.0.0",
+  "description": "yEarn Improvement Proposals describe the specification for the yEearn ($YFI) Platform",
+  "main": "index.json",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "github.com/iearn-finance/yips"
+  },
+  "keywords": [
+    "yips",
+    "yearn",
+    "defi",
+    "erc20",
+    "yield",
+    "farming",
+    "ethereum",
+    "staking",
+    "cryptocurrency",
+    "iearn",
+    "finance",
+    "eth"
+  ],
+  "author": "SEE CONTRIBUTORS",
+  "license": "CC0-1.0"
+}
